@@ -1,0 +1,231 @@
+html {
+  overflow-x: hidden;
+}
+body {
+  margin: 0 auto;
+  background: #7FCBE7;
+  height: 5354px;
+  display: block;
+  position: relative;
+}
+h1 {
+  font-family: Montserrat;
+  color: black;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 78px;
+  display: block;
+}
+h2 {
+  font-family: Montserrat;
+  color: black;
+  font-weight: SemiBold;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 21px;
+  display: block;
+}
+
+
+
+/* section 1 */
+.logo {
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 170px;
+}
+.s01 {
+
+}
+.girl_position_1 {
+position: absolute;
+height: 557px;
+left: -450px;
+top: 820px;
+animation: girl1-move 8s linear infinite;
+z-index: 1;
+}
+.yellow_dragon {
+  margin-top: 100px;
+  width: 2172px;
+  position: absolute;
+  animation: dragon1-move 8s linear infinite;
+}
+
+.cloud01 {
+  width: 284px;
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 60px;
+}
+.cloud02 {
+  width: 284px;
+  position: absolute;
+  margin-left: 1000px;
+  margin-top: 900px;
+}
+.h1-1 {
+  margin-top: 206px;
+  margin-left: 50px;
+}
+@keyframes dragon1-move {
+  0% {margin-left: -3000px;}
+  100% {margin-left: 2400px;}
+}
+@keyframes girl1-move {
+  0% {left: -2800px;}
+  50% {top: 820px;}
+  100% {left: 2600px; top: 2000px;}
+}
+
+
+/* section 2 */
+.h1-2 {
+  margin-top: 1400px;
+  margin-left: 50px;
+}
+.girl_position_2 {
+  position: absolute;
+  height: 557px;
+  top: 2150px;
+  left: 580px;
+}
+.girl_position_2:hover {
+  animation: girl2-move 4s ease-in-out infinite;
+}
+.cloud03 {
+  width: 284px;
+  position: absolute;
+  margin-left: 1000px;
+  margin-top: 710px;
+}
+.cloud04 {
+  width: 284px;
+  position: absolute;
+  margin-left: 122px;
+  margin-top: 150px;
+}
+.cloud01:hover, .cloud02:hover, .cloud03:hover, .cloud04:hover, .cloud05:hover, .cloud06:hover, .cloud07:hover, .cloud08:hover {
+  animation: clouds-move 2s linear infinite
+}
+@keyframes girl2-move {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(15deg);
+  }
+  75% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+@keyframes clouds-move {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+/*section 3 */
+.h1-3 {
+  margin-top: 878px;
+  margin-left: 50px;
+}
+.girl_position_3 {
+  position: absolute;
+  height: 558px;
+  left: 1946px;
+  top:3600px;
+  animation: girl3-move 7s linear infinite;
+}
+.red_dragon {
+width: 1861px;
+position: absolute;
+margin-left: 1762px;
+margin-top: 100px;
+animation: dragon2-move 7s linear infinite;
+}
+.cloud05 {
+  width: 284px;
+position: absolute;
+left: 128px;
+top: 3979px;
+}
+@keyframes dragon2-move {
+    0% {margin-left: 1762px;}
+  100% {margin-left: -2358px;}
+}
+@keyframes girl3-move {
+    0% {left: 1946px;}
+  100% {left: -2174px;}
+}
+
+/*section 4 */
+.girl_position_4 {
+position: absolute;
+height: 700px;
+margin-left: 30px;
+margin-top: 1340px;
+}
+
+.purple_dragon {
+position: absolute;
+width: 2032px;
+left: -1279px;
+top: 4300px;
+}
+.cloud06 {
+width: 284px;
+position: absolute;
+left: 1050px;
+top: 4707px;
+}
+
+.orange_fire {
+position: absolute;
+width: 700px;
+margin-left: 780px;
+margin-top: 1610px;
+}
+.orange_fire:hover {
+animation: fire-move 1s linear infinite;
+}
+@keyframes fire-move {
+  0% {
+    transform: rotate(-5deg);
+  }
+  25% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-8deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+
+/*section 5 */
+.s05 {
+  margin-top: 2320px;;
+  margin-left: 50px;
+}
+.h2-1, .h2-2, .h2-3, .h2-4 {
+  margin-right: 117px;
+}
